@@ -1,18 +1,17 @@
 {
-  "name": "libertarian-party-of-monroe-county",
+  "name": "monroelpin.org",
   "version": "1.0.0",
   "private": true,
-  "description": "Libertarian Party of Monroe County",
+  "description": "Libertarian Party of Monroe County's marketing and blog site",
   "author": "Matt Batman",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "format": "prettier --write \"./**/*.{ts,tsx,js,jsx}\"",
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
@@ -29,5 +28,9 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "prettier": "2.5.1"
   }
 }

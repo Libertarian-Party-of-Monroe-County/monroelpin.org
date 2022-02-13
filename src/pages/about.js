@@ -1,15 +1,15 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
       <main>
         <title>Libertarian Party of Monroe County, Indiana</title>
-        <h1>Libertarian of Monroe County</h1>
+        <h1>About</h1>
       </main>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default AboutPage;

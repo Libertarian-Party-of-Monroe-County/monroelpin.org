@@ -1,54 +1,41 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Libertarian Party of Monroe County (monroelpin.org)
 
-## 🚀 Quick start
+This is the marketing and blog site for the Monroe County affiliate of the Libertarian Party of Indiana.
 
-1.  **Create a Gatsby site.**
+*At present, the site has no styling or content.*
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Getting Started
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+The project was started with node version 16.13.0. It's built using [Gatsby](https://www.gatsbyjs.com/).
 
-2.  **Start developing.**
+### 0. Prerequisties
 
-    Navigate into your new site’s directory and start it up.
+You need [Node.js](https://nodejs.org/en/), probably on major version 16. [NVM](https://github.com/nvm-sh/nvm) could be useful for this.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+### 1. Install Dependencies
 
-3.  **Open the code and start customizing!**
+```
+npm install
+```
 
-    Your site is now running at http://localhost:8000!
+### 2. Run the development server
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+```
+npm run start
+```
 
-4.  **Learn more**
+You should now be able to visit http://localhost:8000.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### 3. Making content changes
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+New blog posts can be added by adding a markdown file in `blog/*/index.md` (e.g. `blog/my-second-post/index.mdx would create http://localhost:8000/blog/my-second-post/). New "main" pages can be added by creating a file in `src/pages` (e.g. `src/pages/contact.js` would create http://localhost:8000/contact/).
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Deploying Changes
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+The site is intended to be deployed on the `gh-pages` branch from the `public` directory. However, the `gh-pages` branch is not intended to be modified directly. Instead, to deploy changes, just run the deploy script below on your local machine from the branch that has the changes you want to deploy (e.g. on your computer from `master`):
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### 1. Run the deploy script
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+```
+npm run deploy
+```
