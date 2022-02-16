@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Libertarian Party of Monroe County`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://monroelpin.org`
   },
   plugins: [
     'gatsby-plugin-image',
