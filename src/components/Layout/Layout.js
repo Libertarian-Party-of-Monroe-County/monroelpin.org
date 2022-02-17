@@ -1,11 +1,14 @@
 import React from 'react';
+import Container from '@mui/material/Container';
 import Nav from '../Nav/Nav';
 
 const Layout = ({ children }) => {
   return (
     <div>
       <Nav />
-      <main>{children}</main>
+      <Container>
+        <main>{children}</main>
+      </Container>
     </div>
   );
 };
