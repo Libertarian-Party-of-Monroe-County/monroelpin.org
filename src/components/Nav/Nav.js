@@ -8,16 +8,26 @@ import { Link } from 'gatsby-theme-material-ui';
 const Nav = () => {
   return (
     <Box>
-      <AppBar>
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to="/">Home</Link>
+      <AppBar position="sticky">
+        <Toolbar
+          component="nav"
+          variant="dense"
+          sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
+        >
+          <Typography component="div">
+            <Link to="/" underline="none" color="white">
+              Home
+            </Link>
           </Typography>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to="/about">About</Link>
+          <Typography component="div">
+            <Link to="/about" underline="none" color="white">
+              About
+            </Link>
           </Typography>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to="/blog">Blog</Link>
+          <Typography component="div">
+            <Link to="/blog" underline="none" color="white">
+              Blog
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>
