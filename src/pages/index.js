@@ -6,7 +6,7 @@ const IndexPage = () => {
     <Layout>
       <main>
         <title>Libertarian Party of Monroe County, Indiana</title>
-        <h1>Libertarian of Monroe County</h1>
+        <h1>Libertarian Party of Monroe County</h1>
       </main>
     </Layout>
   );
