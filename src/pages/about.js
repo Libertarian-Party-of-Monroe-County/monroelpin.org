@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@mui/material/Typography';
 import Layout from '../components/Layout/Layout';
 
 const AboutPage = () => {
@@ -6,7 +7,9 @@ const AboutPage = () => {
     <Layout>
       <main>
         <title>Libertarian Party of Monroe County, Indiana</title>
-        <h1>About</h1>
+        <Typography component="h1" variant="h3">
+          About
+        </Typography>
       </main>
     </Layout>
   );
