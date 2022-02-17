@@ -1,0 +1,12 @@
+.HomeIcon {
+  display: flex;
+}
+
+.HomeIconText {
+  display: flex;
+  max-width: 150px;
+  margin-left: 10px;
+  height: 55px;
+  justify-content: flex-end;
+  flex-flow: column nowrap;
+}

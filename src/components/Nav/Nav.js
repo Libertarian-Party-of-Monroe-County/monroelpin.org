@@ -5,33 +5,33 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { Link } from 'gatsby-theme-material-ui';
+import HomeIcon from './HomeIcon';
 
 const Nav = () => {
   return (
     <Box>
-      <AppBar position="sticky">
+      <AppBar position="sticky" sx={{ py: 1 }}>
         <Container>
           <Toolbar
             component="nav"
             disableGutters={true}
-            variant="dense"
             sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
           >
-            <Typography component="div">
-              <Link to="/" underline="none" color="white">
-                Home
-              </Link>
-            </Typography>
-            <Typography component="div">
-              <Link to="/about" underline="none" color="white">
-                About
-              </Link>
-            </Typography>
-            <Typography component="div">
-              <Link to="/blog" underline="none" color="white">
-                Blog
-              </Link>
-            </Typography>
+            <Link to="/" underline="none" color="white">
+              <HomeIcon />
+            </Link>
+            <div>
+              <Typography component="span">
+                <Link to="/about" underline="none" color="white">
+                  About
+                </Link>
+              </Typography>
+              <Typography component="span" sx={{ pl: 1 }}>
+                <Link to="/blog" underline="none" color="white">
+                  Blog
+                </Link>
+              </Typography>
+            </div>
           </Toolbar>
         </Container>
       </AppBar>

@@ -28,7 +28,7 @@ const theme = createTheme({
       '"Segoe UI Symbol"'
     ].join(','),
     h1: {
-      fontWeight: 700
+      fontWeight: 900
     },
     h2: {
       fontWeight: 700
