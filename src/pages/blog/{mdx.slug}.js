@@ -7,7 +7,9 @@ import Layout from '../../components/Layout/Layout';
 const BlogPost = ({ data }) => {
   return (
     <Layout>
-      <Typography component="h1" variant="h1">{data.mdx.frontmatter.title}</Typography>
+      <Typography component="h1" variant="h1">
+        {data.mdx.frontmatter.title}
+      </Typography>
       <Typography component="p" variant="subtitle1">
         {data.mdx.frontmatter.date}
       </Typography>

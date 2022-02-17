@@ -1,4 +1,5 @@
 import React from 'react';
+import Typography from '@mui/material/Typography';
 import Layout from '../components/Layout/Layout';
 
 const IndexPage = () => {
@@ -6,7 +7,9 @@ const IndexPage = () => {
     <Layout>
       <main>
         <title>Libertarian Party of Monroe County, Indiana</title>
-        <h1>Libertarian Party of Monroe County</h1>
+        <Typography component="h1" variant="h3">
+          Libertarian Party of Monroe County
+        </Typography>
       </main>
     </Layout>
   );
