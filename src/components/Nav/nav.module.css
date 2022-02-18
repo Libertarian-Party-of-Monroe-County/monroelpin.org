@@ -10,3 +10,7 @@
   justify-content: flex-end;
   flex-flow: column nowrap;
 }
+
+.HomeIconLocation {
+  color: #ffeb3b;
+}
