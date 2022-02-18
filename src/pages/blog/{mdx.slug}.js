@@ -2,19 +2,19 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Typography from '@mui/material/Typography';
-import Layout from '../../components/Layout/Layout';
+import PostLayout from '../../components/Layout/PostLayout';
 
 const BlogPost = ({ data }) => {
   return (
-    <Layout>
+    <PostLayout>
       <Typography component="h1" variant="h1">
         {data.mdx.frontmatter.title}
       </Typography>
-      <Typography component="p" variant="subtitle1">
+      <Typography component="p" variant="subtitle1" sx={{ marginBottom: 4 }}>
         {data.mdx.frontmatter.date}
       </Typography>
       <MDXRenderer>{data.mdx.body}</MDXRenderer>
-    </Layout>
+    </PostLayout>
   );
 };
 export const query = graphql`

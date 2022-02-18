@@ -10,7 +10,7 @@ const ContactPage = () => {
         <title>Contact</title>
         <Typography
           component="h1"
-          variant="h2"
+          variant="h1"
           sx={{
             marginBottom: 4
           }}
