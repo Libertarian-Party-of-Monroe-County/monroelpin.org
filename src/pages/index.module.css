@@ -14,7 +14,7 @@
 .HomeLogoTextBlock {
   display: flex;
   margin-left: 10px;
-  height: 200px;
+  height: 125px;
   justify-content: flex-end;
   flex-flow: column nowrap;
   font-family: 'Libre Franklin', 'Franklin Gothic', '-apple-system',
@@ -32,5 +32,15 @@
   padding: 0 1em;
   text-align: center;
   text-decoration: underline;
-  font-size: 2.125rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .HomeLogoTextBlock {
+    height: 200px;
+  }
+
+  .HomeLinkBlock > a {
+    font-size: 2.125rem;
+  }
 }
