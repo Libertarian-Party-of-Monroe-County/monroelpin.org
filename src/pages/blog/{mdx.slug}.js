@@ -5,15 +5,18 @@ import Typography from '@mui/material/Typography';
 import PostLayout from '../../components/Layout/PostLayout';
 
 const BlogPost = ({ data }) => {
+  const { body, frontmatter } = data.mdx;
+  const { title, date, author } = frontmatter;
+
   return (
     <PostLayout>
       <Typography component="h1" variant="h1">
-        {data.mdx.frontmatter.title}
+        {title}
       </Typography>
       <Typography component="p" variant="subtitle1" sx={{ marginBottom: 4 }}>
-        {data.mdx.frontmatter.date}
+        {author} | {date}
       </Typography>
-      <MDXRenderer>{data.mdx.body}</MDXRenderer>
+      <MDXRenderer>{body}</MDXRenderer>
     </PostLayout>
   );
 };
@@ -23,6 +26,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM D, YYYY")
+        author
       }
       body
     }
