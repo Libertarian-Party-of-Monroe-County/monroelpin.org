@@ -17,17 +17,17 @@ const Nav = () => {
             disableGutters={true}
             sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
           >
-            <Link to="/" underline="none" color="white">
+            <Link to="/" underline="none" sx={{ color: 'white' }}>
               <HomeIcon />
             </Link>
             <div>
               <Typography component="span">
-                <Link to="/contact" underline="none" color="white">
+                <Link to="/contact" underline="none" sx={{ color: 'white' }}>
                   Contact
                 </Link>
               </Typography>
               <Typography component="span" sx={{ pl: 1 }}>
-                <Link to="/blog" underline="none" color="white">
+                <Link to="/blog" underline="none" sx={{ color: 'white' }}>
                   Blog
                 </Link>
               </Typography>
