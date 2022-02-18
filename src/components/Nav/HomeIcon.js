@@ -6,9 +6,9 @@ const HomeIcon = () => {
   return (
     <div className={navStyles.HomeIcon}>
       <StaticImage
-        src="../../images/icon.png"
+        src="../../images/torch.svg"
         alt="liberty torch icon"
-        height={55}
+        height={65}
       />
       <div className={navStyles.HomeIconText}>
         <div>
