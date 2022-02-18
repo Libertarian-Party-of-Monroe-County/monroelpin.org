@@ -22,8 +22,8 @@ const Nav = () => {
             </Link>
             <div>
               <Typography component="span">
-                <Link to="/about" underline="none" color="white">
-                  About
+                <Link to="/contact" underline="none" color="white">
+                  Contact
                 </Link>
               </Typography>
               <Typography component="span" sx={{ pl: 1 }}>

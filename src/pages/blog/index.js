@@ -7,7 +7,7 @@ import Layout from '../../components/Layout/Layout';
 const BlogPage = ({ data }) => {
   return (
     <Layout>
-      <Typography component="h1" variant="h3" sx={{ mb: 6 }}>
+      <Typography component="h1" variant="h2" sx={{ mb: 6 }}>
         Blog
       </Typography>
       {data.allMdx.nodes.map((node) => (

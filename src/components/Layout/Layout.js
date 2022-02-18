@@ -4,12 +4,16 @@ import Nav from '../Nav/Nav';
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <>
       <Nav />
-      <Container>
+      <Container
+        sx={{
+          paddingTop: 2
+        }}
+      >
         <main>{children}</main>
       </Container>
-    </div>
+    </>
   );
 };
 

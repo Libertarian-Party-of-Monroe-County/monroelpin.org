@@ -9,7 +9,7 @@ const theme = createTheme({
       light: grey[200]
     },
     secondary: {
-      main: yellow[500],
+      main: yellow[700],
       dark: yellow[900],
       light: yellow[100]
     }
