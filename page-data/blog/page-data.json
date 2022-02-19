@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-blog-index-js",
     "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"February 13, 2022","title":"Hello World"},"id":"33f56ec1-f798-54ce-a7e3-e2c553087c89","slug":"hello-world/"}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"February 13, 2022","title":"Hello World","draft":true},"id":"33f56ec1-f798-54ce-a7e3-e2c553087c89","slug":"hello-world/"}]}},"pageContext":{}},
     "staticQueryHashes": []}
