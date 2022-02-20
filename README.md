@@ -32,10 +32,10 @@ New blog posts can be added by adding a markdown file in `blog/*/index.md` (e.g.
 
 ## Deploying Changes
 
-The site is intended to be deployed on the `gh-pages` branch from the `public` directory. However, the `gh-pages` branch is not intended to be modified directly. Instead, to deploy changes, just run the deploy script below on your local machine from the branch that has the changes you want to deploy (e.g. on your computer from `master`):
-
-### 1. Run the deploy script
+To create a production build, run:
 
 ```
-npm run deploy
+npm run build
 ```
+
+The output to the `public` directory is the compiled site.
