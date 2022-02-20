@@ -2,8 +2,6 @@
 
 This is the marketing and blog site for the Monroe County affiliate of the Libertarian Party of Indiana.
 
-*At present, the site has no styling or content.*
-
 ## Getting Started
 
 The project was started with node version 16.13.0. It's built using [Gatsby](https://www.gatsbyjs.com/). For the sake of consistent element styling, [React Material](https://mui.com/) is also being used for buttons, navbars, etc.
