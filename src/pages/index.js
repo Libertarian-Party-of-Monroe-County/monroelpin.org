@@ -43,6 +43,9 @@ const IndexPage = () => {
         </div>
       </div>
       <div className={homeStyles.HomeLinkBlock}>
+        <Link to="/about" sx={{ color: 'white' }}>
+          About
+        </Link>
         <Link to="/contact" sx={{ color: 'white' }}>
           Contact
         </Link>
