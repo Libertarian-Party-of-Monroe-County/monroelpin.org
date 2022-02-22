@@ -21,11 +21,6 @@ const Nav = () => {
               <HomeIcon />
             </Link>
             <div>
-              <Typography component="span">
-                <Link to="/about" underline="none" sx={{ color: 'white' }}>
-                  About
-                </Link>
-              </Typography>
               <Typography component="span" sx={{ pl: 1 }}>
                 <Link to="/contact" underline="none" sx={{ color: 'white' }}>
                   Contact
