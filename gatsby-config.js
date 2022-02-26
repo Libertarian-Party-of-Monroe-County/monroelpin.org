@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Libertarian Party of Monroe County`,
+    title: `Libertarian Party of Monroe County in Indiana`,
     siteUrl: `https://monroelpin.org`
   },
   plugins: [

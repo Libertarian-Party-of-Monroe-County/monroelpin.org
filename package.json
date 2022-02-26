@@ -2,7 +2,7 @@
   "name": "monroelpin.org",
   "version": "1.0.0",
   "private": true,
-  "description": "Libertarian Party of Monroe County's marketing and blog site",
+  "description": "Libertarian Party of Monroe County in Indiana site",
   "author": "Matt Batman",
   "scripts": {
     "develop": "gatsby develop",
