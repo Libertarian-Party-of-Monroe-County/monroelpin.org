@@ -3,72 +3,33 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Layout from '../components/Layout/Layout';
 
-const ContactPage = () => {
-  return (
-    <Layout>
+const ContactPage = () => (
+  <Layout>
       <main>
         <title>Contact</title>
-        <Typography
-          component="h1"
-          variant="h1"
-          sx={{
-            marginBottom: 4
-          }}
-        >
-          Contact
-        </Typography>
-        <Typography
-          component="p"
-          variant="h5"
-          sx={{
-            marginBottom: 2
-          }}
-        >
-          You can <b>email</b> us at{' '}
-          <Link href="mailto:info@monroelpin.org" color="primary">
-            info@monroelpin.org
-          </Link>{' '}
-          or{' '}
-          <Link href="mailto:chair@monroelpin.org" color="primary">
-            chair@monroelpin.org
-          </Link>
-          .
-        </Typography>
-        <Typography
-          component="p"
-          variant="h5"
-          sx={{
-            marginBottom: 2
-          }}
-        >
-          You can join our <b>Signal group</b>{' '}
-          <Link
-            href="https://signal.group/#CjQKICq65YYvulg0wXB_KOZeiVzJA2uowvdFkcAJsbHHUJzUEhDHfBFvnWa5LgeR5zGT4f8S"
-            color="primary"
-          >
-            here
-          </Link>
-          .
-        </Typography>
-        <Typography
-          component="p"
-          variant="h5"
-          sx={{
-            marginBottom: 2
-          }}
-        >
-          You can join our <b>Element Matrix Room</b>{' '}
-          <Link
-            color="primary"
-            href="https://matrix.to/#/!aTMTZLDrrvBnFjiADl:matrix.org?via=matrix.org"
-          >
-            here
-          </Link>
-          .
-        </Typography>
+        <h1>Contact</h1>
+        <h2>Leadership</h2>
+        <p><b>Chair:</b> <Link href="mailto:chair@monroelpin.org">Dr. Damir Cavar</Link></p>
+        <p><b>Vice-Chair:</b> <Link>Matt Batman</Link></p>
+        <p><b>Treasurer:</b> <Link>Robert Milroy</Link></p>
+        <p><b>Secretary:</b> <Link>Dr. Joshua Herring</Link></p>
+        <h2>General:</h2>
+        <p><b>Info email:</b> <Link href="mailto:info@monroelpin.org" color="primary">info@monroelpin.org</Link></p>
+        <p><b>Signal group:</b> <Link href="https://signal.group/#CjQKICq65YYvulg0wXB_KOZeiVzJA2uowvdFkcAJsbHHUJzUEhDHfBFvnWa5LgeR5zGT4f8S">Monroe County in Indiana Members</Link></p>
+        <p><b><Link href="https://element.io/">Element</Link> (<Link href="https://matrix.org/">Matrix</Link>):</b> <Link href="https://matrix.to/#/!aTMTZLDrrvBnFjiADl:matrix.org?via=matrix.org">LPMC general room</Link></p>
+        <p><b><Link href="https://ipfs.io/">IPFS</Link> links:</b> TBA</p>
+        <h2>Libertarian Party of Indiana</h2>
+        <p>The Libertarian Party of Monroe County in Indiana (LPMC) is affiliated with the Libertarian Party of Indiana (LPIN).</p>
+        <ul>
+          <li><Link href="https://lpin.org/">Homepage</Link></li>
+          <li><Link href="https://lpin.org/events/">Events</Link></li>
+        </ul>
+        <p></p>
+        <p></p>
+        <h2>Lipertarian Party</h2>
+        <p><Link href="https://www.lp.org/">Homepage</Link></p>
       </main>
-    </Layout>
-  );
-};
+  </Layout>
+  )
 
 export default ContactPage;
