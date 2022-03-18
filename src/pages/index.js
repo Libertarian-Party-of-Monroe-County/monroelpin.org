@@ -10,9 +10,13 @@ const HomePage = () => {
     <Layout>
       <main style={{ maxWidth: '768px' }}>
         <title>Home</title>
-        <Typography component="p" variant="h4" sx={{
-          mt: 4
-        }}>
+        <Typography
+          component="p"
+          variant="h4"
+          sx={{
+            mt: 4
+          }}
+        >
           The Libertarian Party of Monroe County affirms the following{' '}
           <b>principles</b>:
         </Typography>
