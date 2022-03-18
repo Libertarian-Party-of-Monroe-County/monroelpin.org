@@ -10,9 +10,9 @@ const ContactPage = () => (
         <h1>Contact</h1>
         <h2>Leadership</h2>
         <p><b>Chair:</b> <Link href="mailto:chair@monroelpin.org">Dr. Damir Cavar</Link></p>
-        <p><b>Vice-Chair:</b> <Link>Matt Batman</Link></p>
-        <p><b>Treasurer:</b> <Link>Robert Milroy</Link></p>
-        <p><b>Secretary:</b> <Link>Dr. Joshua Herring</Link></p>
+        <p><b>Vice-Chair:</b> Matt Batman</p>
+        <p><b>Treasurer:</b> Robert Milroy </p>
+        <p><b>Secretary:</b> Dr. Joshua Herring</p>
         <h2>General:</h2>
         <p><b>Info email:</b> <Link href="mailto:info@monroelpin.org" color="primary">info@monroelpin.org</Link></p>
         <p><b>Signal group:</b> <Link href="https://signal.group/#CjQKICq65YYvulg0wXB_KOZeiVzJA2uowvdFkcAJsbHHUJzUEhDHfBFvnWa5LgeR5zGT4f8S">Monroe County in Indiana Members</Link></p>
