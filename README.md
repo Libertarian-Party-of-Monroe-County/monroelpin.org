@@ -24,9 +24,17 @@ npm run start
 
 You should now be able to visit http://localhost:8000.
 
-### 3. Making content changes
+### 3. Add a blog post
 
-New blog posts can be added by adding a markdown file in `blog/*/index.md` (e.g. `blog/my-second-post/index.mdx` would create http://localhost:8000/blog/my-second-post/). New "main" pages can be added by creating a file in `src/pages` (e.g. `src/pages/contact.js` would create http://localhost:8000/contact/).
+New blog posts can be added by adding a markdown file in `blog/*/index.mdx`.
+
+For instance, there's a dummy post set-up at `blog/hello-world/index.mdx`. To make the dummy blog post visible, change `draft` to `false`. The blog post will now be listed at the `/blog` route, and readable by visiting `/blog/hello-world` (e.g. http://localhost:8000/blog/hello-world).
+
+To create an additional blog post, copy `blog/hello-world/index.mdx` as something like `blog/my-second-post/index.mdx`. Modify the meta information (the title, date, and other information between the `---` markers). Modify the content of the post below the second `---` marker. Ensure that `draft` is set to `true`.
+
+### 4. Adding a mina page
+
+New "main" pages can be added by creating a file in `src/pages` (e.g. `src/pages/contact.js` would create http://localhost:8000/contact/).
 
 ## Deploying Changes
 
