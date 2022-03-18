@@ -32,7 +32,7 @@ For instance, there's a dummy post set-up at `blog/hello-world/index.mdx`. To ma
 
 To create an additional blog post, copy `blog/hello-world/index.mdx` as something like `blog/my-second-post/index.mdx`. Modify the meta information (the title, date, and other information between the `---` markers). Modify the content of the post below the second `---` marker. Ensure that `draft` is set to `true`.
 
-### 4. Adding a mina page
+### 4. Adding a main page
 
 New "main" pages can be added by creating a file in `src/pages` (e.g. `src/pages/contact.js` would create http://localhost:8000/contact/).
 
