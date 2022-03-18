@@ -65,7 +65,7 @@ const ContactPage = () => (
       </ul>
       <p></p>
       <p></p>
-      <h2>Lipertarian Party</h2>
+      <h2>Libertarian Party</h2>
       <p>
         <Link href="https://www.lp.org/">Homepage</Link>
       </p>
