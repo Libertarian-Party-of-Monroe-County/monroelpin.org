@@ -50,7 +50,8 @@ const ContactPage = () => (
           <b>
             <Link href="https://element.io/">Element</Link> (
             <Link href="https://matrix.org/">Matrix</Link>):
-          </b>&nbsp;
+          </b>
+          &nbsp;
           <Link href="https://matrix.to/#/!aTMTZLDrrvBnFjiADl:matrix.org?via=matrix.org">
             LPMC general room
           </Link>
@@ -58,8 +59,8 @@ const ContactPage = () => (
         <ListItem disableGutters={true}>
           <b>
             <Link href="https://ipfs.io/">IPFS:</Link>
-          </b>&nbsp;
-          TBA
+          </b>
+          &nbsp; TBA
         </ListItem>
       </List>
       <Typography component="h2" variant="h4">
