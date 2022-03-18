@@ -15,7 +15,7 @@ const HomeIcon = () => {
           <b>Libertarian Party</b>
         </div>
         <div>
-          of <b className={navStyles.HomeIconLocation}>Monroe County in Indiana</b>
+          of <b className={navStyles.HomeIconLocation}>Monroe County</b>, IN
         </div>
       </div>
     </div>
