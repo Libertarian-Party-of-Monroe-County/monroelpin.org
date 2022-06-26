@@ -49,7 +49,21 @@ const ContactPage = () => (
         <ListItem disableGutters={true}>
           <b>
             <Link href="https://twitter.com/LPMC_Indiana">Twitter</Link>
+          </b>
+        </ListItem>
+        <ListItem disableGutters={true}>
+          <b>
             <Link href="https://www.linkedin.com/company/libertarian-party-of-monroe-county-in-indiana/">LinkedIn</Link>
+          </b>
+        </ListItem>
+        <ListItem disableGutters={true}>
+          <b>
+            <Link href="https://www.facebook.com/groups/868317740795600/">Facebook Group</Link> &nbsp; and &nbsp;
+            <Link href="https://www.facebook.com/Libertarian-Party-of-Monroe-County-in-Indiana-111788734906640/">Facebook Page</Link>
+          </b>
+        </ListItem>
+        <ListItem disableGutters={true}>
+          <b>
             <Link href="https://www.facebook.com/groups/868317740795600/">Facebook Group</Link>
             <Link href="https://www.facebook.com/Libertarian-Party-of-Monroe-County-in-Indiana-111788734906640/">Facebook Page</Link>
             <Link href="https://element.io/">Element</Link> (
