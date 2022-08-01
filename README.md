@@ -36,12 +36,10 @@ To create an additional blog post, copy `blog/hello-world/index.mdx` as somethin
 
 New "main" pages can be added by creating a file in `src/pages` (e.g. `src/pages/contact.js` would create http://localhost:8000/contact/).
 
-## Deploying Changes
+## 5. Deploying Changes
 
-To create a production build, run:
+To deploy the changes of your current local branch:
 
 ```
-npm run build
+npm run deploy
 ```
-
-The output to the `public` directory is the compiled site.
