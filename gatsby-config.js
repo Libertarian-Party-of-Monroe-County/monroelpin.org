@@ -3,6 +3,7 @@ module.exports = {
     title: `Libertarian Party of Monroe County in Indiana`,
     siteUrl: `https://monroelpin.org`
   },
+  pathPrefix: "/monroelpin.org",
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
@@ -34,4 +35,4 @@ module.exports = {
       __key: 'blog'
     }
   ]
-};
+}; 
