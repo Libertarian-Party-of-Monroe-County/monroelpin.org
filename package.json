@@ -10,7 +10,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "format": "prettier --write \"./**/*.{ts,tsx,js,jsx}\""
+    "format": "prettier --write \"./**/*.{ts,tsx,js,jsx}\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
