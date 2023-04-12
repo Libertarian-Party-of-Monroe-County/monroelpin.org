@@ -25,6 +25,8 @@ const ContactPage = () => (
         </ListItem>
         <ListItem disableGutters={true}>
           <b>Treasurer:</b>&nbsp;Robert Milroy
+        </ListItem>
+        <ListItem disableGutters={true}>
           <b>Vice-Treasurer:</b>&nbsp;Matt Batman
         </ListItem>
         <ListItem disableGutters={true}>
@@ -54,19 +56,26 @@ const ContactPage = () => (
         </ListItem>
         <ListItem disableGutters={true}>
           <b>
-            <Link href="https://www.linkedin.com/company/libertarian-party-of-monroe-county-in-indiana/">LinkedIn</Link>
+            <Link href="https://www.linkedin.com/company/libertarian-party-of-monroe-county-in-indiana/">
+              LinkedIn
+            </Link>
           </b>
         </ListItem>
         <ListItem disableGutters={true}>
           <b>
-            <Link href="https://www.facebook.com/groups/868317740795600/">Facebook Group</Link> &nbsp; and &nbsp;
-            <Link href="https://www.facebook.com/Libertarian-Party-of-Monroe-County-in-Indiana-111788734906640/">Facebook Page</Link>
+            <Link href="https://www.facebook.com/groups/868317740795600/">
+              Facebook Group
+            </Link>
+          </b>
+          &nbsp;and&nbsp;
+          <b>
+            <Link href="https://www.facebook.com/Libertarian-Party-of-Monroe-County-in-Indiana-111788734906640/">
+              Facebook Page
+            </Link>
           </b>
         </ListItem>
         <ListItem disableGutters={true}>
           <b>
-            <Link href="https://www.facebook.com/groups/868317740795600/">Facebook Group</Link>
-            <Link href="https://www.facebook.com/Libertarian-Party-of-Monroe-County-in-Indiana-111788734906640/">Facebook Page</Link>
             <Link href="https://element.io/">Element</Link> (
             <Link href="https://matrix.org/">Matrix</Link>):
           </b>
@@ -87,7 +96,9 @@ const ContactPage = () => (
       </Typography>
       <p>
         The Libertarian Party of Monroe County in Indiana (LPMC) is affiliated
-        with the <Link href="https://lpin.org/">Libertarian Party of Indiana</Link> (<Link href="https://lpin.org/">LPIN</Link>).
+        with the{' '}
+        <Link href="https://lpin.org/">Libertarian Party of Indiana</Link> (
+        <Link href="https://lpin.org/">LPIN</Link>).
       </p>
       <ul>
         <li>
