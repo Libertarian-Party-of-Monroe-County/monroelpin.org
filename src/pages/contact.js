@@ -18,13 +18,14 @@ const ContactPage = () => (
       <List dense={true} sx={{ mb: 2 }}>
         <ListItem disableGutters={true}>
           <b>Chair:</b>&nbsp;
-          <Link href="mailto:chair@monroelpin.org">Dr. Damir Cavar</Link>
+          <Link href="mailto:chair@monroelpin.org">TBA</Link>
         </ListItem>
         <ListItem disableGutters={true}>
-          <b>Vice-Chair:</b>&nbsp;Matt Batman
+          <b>Vice-Chair:</b>&nbsp;Sydney Bloom
         </ListItem>
         <ListItem disableGutters={true}>
           <b>Treasurer:</b>&nbsp;Robert Milroy
+          <b>Vice-Treasurer:</b>&nbsp;Matt Batman
         </ListItem>
         <ListItem disableGutters={true}>
           <b>Secretary:</b>&nbsp;Dr. Joshua Herring
