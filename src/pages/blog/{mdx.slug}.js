@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Typography from '@mui/material/Typography';
 import Nav from '../../components/Nav/Nav';
+import './post.css';
 
 const BlogPost = ({ data }) => {
   const { body, frontmatter } = data.mdx;
