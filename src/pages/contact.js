@@ -18,16 +18,10 @@ const ContactPage = () => (
       <List dense={true} sx={{ mb: 2 }}>
         <ListItem disableGutters={true}>
           <b>Chair:</b>&nbsp;
-          <Link href="mailto:chair@monroelpin.org">TBA</Link>
+          <Link href="mailto:chair@monroelpin.org">Sydney Bloom</Link>
         </ListItem>
         <ListItem disableGutters={true}>
-          <b>Vice-Chair:</b>&nbsp;Sydney Bloom
-        </ListItem>
-        <ListItem disableGutters={true}>
-          <b>Treasurer:</b>&nbsp;Robert Milroy
-        </ListItem>
-        <ListItem disableGutters={true}>
-          <b>Vice-Treasurer:</b>&nbsp;Matt Batman
+          <b>Vice-Chair and Treasurer:</b>&nbsp;Jesse Bloom
         </ListItem>
         <ListItem disableGutters={true}>
           <b>Secretary:</b>&nbsp;Dr. Joshua Herring
@@ -39,8 +33,8 @@ const ContactPage = () => (
       <List dense={true} sx={{ mb: 2 }}>
         <ListItem disableGutters={true}>
           <b>Info email:</b>&nbsp;
-          <Link href="mailto:info@monroelpin.org" color="primary">
-            info@monroelpin.org
+          <Link href="monroe@lpin.vote" color="primary">
+            monroe@lpin.vote
           </Link>
         </ListItem>
         <ListItem disableGutters={true}>
@@ -73,22 +67,6 @@ const ContactPage = () => (
               Facebook Page
             </Link>
           </b>
-        </ListItem>
-        <ListItem disableGutters={true}>
-          <b>
-            <Link href="https://element.io/">Element</Link> (
-            <Link href="https://matrix.org/">Matrix</Link>):
-          </b>
-          &nbsp;
-          <Link href="https://matrix.to/#/!aTMTZLDrrvBnFjiADl:matrix.org?via=matrix.org">
-            LPMC general room
-          </Link>
-        </ListItem>
-        <ListItem disableGutters={true}>
-          <b>
-            <Link href="https://ipfs.io/">IPFS:</Link>
-          </b>
-          &nbsp; TBA
         </ListItem>
       </List>
       <Typography component="h2" variant="h4">
