@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Layout from '../components/Layout/Layout';
+import Button from '@mui/material/Button';
 
 const HomePage = () => {
   return (
@@ -25,6 +26,13 @@ const HomePage = () => {
         >
           All of the time.
         </Typography>
+        <Button variant="contained" href="/contact" color="secondary" sx={{
+          mt: 4
+        }}
+        size="large"
+        >
+          Join Us
+        </Button>
       </main>
     </Layout>
   );
