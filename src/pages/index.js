@@ -12,47 +12,22 @@ const HomePage = () => {
         <title>Home</title>
         <Typography
           component="p"
-          variant="h4"
+          variant="h1"
           sx={{
             mt: 4
           }}
         >
-          The Libertarian Party of Monroe County affirms the following{' '}
-          <b>principles</b>:
+          All your freedoms.
         </Typography>
-        <List>
-          <ListItem>
-            <ListItemText
-              primary="That all people possess certain unalienable natural rights, and that among these are rights to
-life, liberty, justly acquired property, and self-governance."
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemText
-              primary="That the only moral basis of government is the preservation and protection of unalienable
-natural rights."
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemText
-              primary="That no person or institution, public or private, has the right to initiate the use of physical force,
-coercion, or fraud against another person, and that all people are bound, without contract, to
-abstain from infringing upon the natural rights of other people."
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemText
-              primary="That all people are entitled to choose their own lifestyles, provided they do not forcibly impose
-their values on others."
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemText
-              primary="That the voluntary and unrestricted exchange of goods and services is fundamental to a
-peaceful and harmonious society."
-            />
-          </ListItem>
-        </List>
+        <Typography
+          component="p"
+          variant="h1"
+          sx={{
+            mt: 4
+          }}
+        >
+          All of the time.
+        </Typography>
       </main>
     </Layout>
   );
