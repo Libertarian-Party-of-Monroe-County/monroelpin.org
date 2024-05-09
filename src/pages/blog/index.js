@@ -14,7 +14,7 @@ const BlogPage = ({ data }) => {
         .filter((node) => node.frontmatter.draft !== true)
         .map((node) => (
           <article key={node.id}>
-            <Typography variant="h4">
+            <Typography variant="h6" sx={{ maxWidth: 600 }}>
               <Link to={`/blog/${node.slug}`} underline="none">
                 {node.frontmatter.title}
               </Link>
